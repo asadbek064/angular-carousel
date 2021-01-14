@@ -16,6 +16,7 @@ export interface Properties {
     eventHandler ? : any;
     freeScroll: boolean;
     lightDOM: boolean;
+    alt ? : string;
 }
 
 export interface Images {

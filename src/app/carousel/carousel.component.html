@@ -14,7 +14,8 @@
 					*ngIf="getImage(i) && getImage(i)['image']" 
 					[src]="getImage(i)['image']['path']"
 					[style.object-fit]="objectFit"
-					draggable="false" />
+					draggable="false"
+					[alt]="getImage(i)['image']['alt']"/>
 
 			</div>
 		</ng-template>
